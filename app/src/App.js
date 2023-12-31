@@ -1,0 +1,18 @@
+import './style.css';
+import Navbar from "./components/Navbar"
+import { Routes } from 'react-router-dom';
+
+function App() {
+  return (
+    <div className="App">
+      <Routes>
+        
+         <Navbar/>
+      </Routes>
+     
+
+    </div>
+  );
+}
+
+export default App;
