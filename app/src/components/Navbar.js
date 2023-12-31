@@ -9,9 +9,9 @@ class Navbar extends Component{
                 <h1 className = "navbar-logo">Nyika</h1>
                 <ul className = "nav-menu"></ul>
                   <li>
-                    <link>
+                    <a>
                     <i class="fa-solid fa-house"></i>Home
-                    </link>
+                    </a>
                   </li>
 
 
