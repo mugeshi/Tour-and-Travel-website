@@ -12,7 +12,8 @@ class Navbar extends Component {
           {MenuItems.map((item, index) => {
             return (
               <li key={index}>
-                <a href="/">
+                <a  className = {item.cName}
+                href="/">
                   <i className={item.icon}></i>{item.title}
                 </a>
               </li>
