@@ -45,7 +45,7 @@
 .nav-links-mobile{
     display: none;
 }
-button{
+.button{
     padding: 0.5rem 1rem;
     white-space: nowrap;
     border-radius: 0.3rem;
@@ -63,3 +63,53 @@ button:hover{
     transition: all 0.2s ease-in-out;
 
 }
+
+@media screen and (max-width: 850px) {
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #fff;
+    width: 100%;
+    height:auto;
+    position: absolute;
+    top: 0;
+    opacity: 1;
+    align-items: stretch;
+    padding: 80px 0 30px 0;
+    margin: 0;
+
+  }
+  .nav-links{
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 2rem 0;
+
+  }
+  .nav-links:hover{
+    background: #01959a;
+    transition:none;
+
+  }
+  button{
+    display: none;
+  }
+  .nav-links-mobile{
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    margin: auto;
+    border-radius: 4px;
+    width: 80%;
+    background: #01959a;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+}
+
+
