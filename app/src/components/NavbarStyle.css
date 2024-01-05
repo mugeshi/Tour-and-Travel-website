@@ -6,6 +6,11 @@
     box-shadow: 0 5px 0 rgba(0, 0, 0, 25);
     width: 95%;
     height: 80px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    
 }
 .navbar-logo{
     color: #222;
@@ -64,6 +69,10 @@ button:hover{
 
 }
 
+.menu-icons{
+    display: none;
+}
+
 @media screen and (max-width: 850px) {
   .NavbarItems{
     z-index: 99;
@@ -108,6 +117,7 @@ button:hover{
   button{
     display: none;
   }
+
   .nav-links-mobile{
     display: block;
     text-align: center;
@@ -122,6 +132,13 @@ button:hover{
     font-weight: 700;
     letter-spacing: 2px;
   }
+  .menu-icons{
+    display: block;
+}
+.menu-icons{
+    font-size: 1.2rem;
+    color: #222;
+}
 }
 
 
