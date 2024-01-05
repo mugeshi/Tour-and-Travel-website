@@ -4,6 +4,7 @@ import Home from './routes/Home';
 import About from './routes/About';
 import Service from './routes/Service';
 import Contact from './routes/Contact';
+import Hero from './components/Hero';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       
       
       
-
+    
     
 
     </div>
