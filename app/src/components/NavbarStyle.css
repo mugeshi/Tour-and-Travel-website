@@ -3,14 +3,15 @@
     justify-content: space-between;
     align-items: centre;
     padding: 0 30px;
-    box-shadow: 0 5px 0 rgba(0, 0, 0, 25);
+    box-shadow: 0 5px 15px 0  rgba(0, 0, 0, 0.25);
     width: 95%;
     height: 80px;
     position: fixed;
     top: 20px;
     left: 50%;
     transform: translate(-50%);
-    
+    z-index: 9999;
+
 }
 .navbar-logo{
     color: #222;
@@ -93,13 +94,14 @@ button:hover{
     align-items: stretch;
     padding: 80px 0 30px 0;
     margin: 0;
-    
+    transition: all 0.2s ease-in-out;
 
   }
   .nav-menu.active{
     left: 0;
     opacity: 1;
     z-index: -1;
+    transition: all 0.2s ease-in-out;
   }
   .nav-links{
     display: block;
@@ -134,6 +136,7 @@ button:hover{
   }
   .menu-icons{
     display: block;
+    cursor: pointer;
 }
 .menu-icons{
     font-size: 1.2rem;
