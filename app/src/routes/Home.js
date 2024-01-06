@@ -7,7 +7,7 @@ function Home (){
    <Navbar />  
     <Hero 
     cName="hero"
-    heroimg="https://econreview.berkeley.edu/wp-content/uploads/2023/09/safari-truck-giraffes-micato-safaris-SAFARIGUIDETIPS0721-2549bb165aa34dc193cb8b6f3958654b-e1694024338105.jpg"
+    heroimg="https://www.arabnews.pk/sites/default/files/styles/n_670_395/public/main-image/2020/09/08/2262826-593670664.png?itok=I_yAn0Ml"
     tittle="THE JOURNEY, NOT THE ARRIVAL, MATTERS."
     text="Choose Your Favorite Destination"
     buttonText="Travel Plan"
