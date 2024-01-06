@@ -8,7 +8,9 @@ function Hero(props) {
      
       <h1>{props.tittle}</h1>
       <p>{props.text}</p>
-      <a href={props.url} className={props.buttonText}>Travel Plan</a>
+      <a href={props.url} className={props.btnClass}>
+        {props.buttonText}
+        </a>
       </div>
     </>
   );
