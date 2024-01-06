@@ -66,4 +66,8 @@
   color: #222;
 }
 
-
+@media screen and (max-width: 555px){
+  .hero-text h1{
+    
+  }
+}
