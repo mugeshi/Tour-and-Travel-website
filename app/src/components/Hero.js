@@ -1,10 +1,14 @@
 import "./HeroStyles.css";
 
-function Hero() {
+function Hero(props) {
   return (
     <>
-      <div className="hero">
-        <img alt="Heroimg" src="https://econreview.berkeley.edu/wp-content/uploads/2023/09/safari-truck-giraffes-micato-safaris-SAFARIGUIDETIPS0721-2549bb165aa34dc193cb8b6f3958654b-e1694024338105.jpg" />
+      <div className={props.cName}>
+        <img alt="Heroimg" src={props.heroimg} />
+     
+      <h1>{props.tittle}</h1>
+      <p>{props.text}</p>
+      <a href={props.url} className={props.buttonText}>Travel Plan</a>
       </div>
     </>
   );
