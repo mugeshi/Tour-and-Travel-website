@@ -19,30 +19,48 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  
-  
 }
-.hero-text h1{
+  
+.hero-text h1 {
   font-size: 3rem;
   font-weight: 800;
   background-color: black;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center; /* Center the text horizontally */
+  display: flex;
+  justify-content: center; /* Center the text vertically */
+  align-items: center;
+  height: 100%; /* the text takes the full height of the container */
 }
-.hero-text p{
+  
+
+
+
+.hero-text p {
   font-size: 1.3rem;
   color: #fff;
   font-weight: bolder;
   padding: 0.5rem 0 2rem 0;
-  
+  text-align: center; /* Center the text horizontally */
+  display: flex;
+  justify-content: center; /* Center the text vertically */
+  align-items: center;
+  height: 100%; /* Ethe text takes the full height of the container */
 }
 
-.hero-text .show{
+
+.hero-text {
+  display: grid;
+  place-items: center; /* Center the content vertically and horizontally */
+}
+
+.hero-text .show {
   text-decoration: none;
   background: #fff;
-  padding: 1rem 2rem;
+  padding: 0.8rem 1.5rem; /* padding for a smaller button */
   border-radius: 6px;
-  font-size: 1.1rem;
+  font-size: 1rem; 
   font-weight: bold;
   letter-spacing: 2px;
   color: #222;
