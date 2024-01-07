@@ -68,6 +68,19 @@
 
 @media screen and (max-width: 555px){
   .hero-text h1{
-    
+    padding: 10px 20px;
+
   }
+  .hero-text p{
+    font-size: 1.1rem;
+    padding:0 0 2rem 0;
+
+  }
+  .hero-text .show {
+  padding: 6rem 1.1rem; /* padding for a smaller button */
+  border-radius: 6px;
+  font-size: 1rem; 
+  
+}
+
 }
