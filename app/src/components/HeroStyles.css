@@ -5,6 +5,14 @@
   position: relative;
  
 }
+.hero1 {
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+  position: relative;
+ 
+}
+
 
 .hero img {
   width: 100%;
