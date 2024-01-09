@@ -2,7 +2,8 @@
   margin: 4rem 6rem;
 }
 
-.destination h1 {
+/* Additional styles for elements within .destination */
+.destination h2 {
   font-size: 3rem;
 }
 
@@ -27,32 +28,27 @@
   /* Styles for the first image */
   width: 300px; 
   border: 2px solid red; 
-  
 }
 
 .unique-image-2 {
   /* Styles for the second image */
   width: 350px; 
   border: 2px solid blue; 
- 
 }
 
 @media screen and (max-width: 850px){
   .destination {
-  margin: 4rem 2rem;
-}
-.first-des {
-  display: flex;
-  flex-direction: column-reverse;
-  margin-top: 2.5rem;
-}
-.des-text{
+    margin: 4rem 2rem;
+  }
+  .first-des {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2.5rem;
+  }
+  .des-text {
     width: 100%;
-}
-.image{
+  }
+  .image {
     width: 100%;
-    
+  }
 }
-
-}
-    
