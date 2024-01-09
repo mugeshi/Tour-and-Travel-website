@@ -6,13 +6,13 @@ import "./DestinationStyles.css";
 class DestinationData extends Component {
   render() {
     return (
-      <div className="destination"> {/* The main container with the class "destination" */}
+      <div className="destination"> 
         <div className="first-des">
           <div className="des-text">
             <h2>{this.props.heading}</h2>
             <p>{this.props.text}</p>
           </div>
-          <div className="image"> {/* Each image container should have a class "image" */}
+          <div className="image"> 
             <img alt="img" src={Moutain1} className="unique-image-1" />
           </div>
           <div className="image">
