@@ -38,6 +38,21 @@
 }
 
 @media screen and (max-width: 850px){
+  .destination {
+  margin: 4rem 2rem;
+}
+.first-des {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 2.5rem;
+}
+.des-text{
+    width: 100%;
+}
+.image{
+    width: 100%;
+    
+}
 
 }
     
