@@ -13,10 +13,10 @@ class DestinationData extends Component {
             <p>{this.props.text}</p>
           </div>
           <div className="image"> 
-            <img alt="img" src={Moutain1} className="unique-image-1" />
+            <img alt="img" src={this.props.img1} className="unique-image-1" />
           </div>
           <div className="image">
-            <img alt="img" src={Moutain2} className="unique-image-2" />
+            <img alt="img" src={this.props.img2} className="unique-image-2" />
           </div>
         </div>
       </div>
