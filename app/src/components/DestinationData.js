@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Moutain1 from "../assets/zambezi.jpg";
-import Moutain2 from "../assets/zambezi2.jpg";
 import "./DestinationStyles.css";
 
 class DestinationData extends Component {

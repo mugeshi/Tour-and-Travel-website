@@ -1,5 +1,8 @@
 import Moutain1 from "../assets/zambezi.jpg";
 import Moutain2 from "../assets/zambezi2.jpg";
+import Moutain3 from "../assets/seregeti.jpeg";
+import Moutain4 from "../assets/seregeti2.jpeg";
+
 import DestinationData from "./DestinationData";
 import "./DestinationStyles.css";
 
@@ -31,8 +34,8 @@ const Destination = () => {
          The park offers exceptional opportunities for game drives, witnessing the Big Five (lions, elephants, 
          buffalo, leopards, and rhinos), and experiencing the breathtaking landscapes, including acacia-dotted 
          plains and kopjes (rock formations)."
-         img1={Moutain1}
-         img2={Moutain2}
+         img1={Moutain3}
+         img2={Moutain4}
 />
         </div>
         
