@@ -2,7 +2,6 @@ import Moutain1 from "../assets/zambezi.jpg";
 import Moutain2 from "../assets/zambezi2.jpg";
 import Moutain3 from "../assets/seregeti.jpeg";
 import Moutain4 from "../assets/seregeti2.jpeg";
-
 import DestinationData from "./DestinationData";
 import "./DestinationStyles.css";
 
@@ -12,7 +11,8 @@ const Destination = () => {
       <h1>Popular Destination</h1>
       <p>Tours give you the opportunity to have an unforgettable experience.</p>
       
-        <DestinationData         
+        <DestinationData 
+        className="first-des"        
         heading ="Victoria Falls, Zimbabwe/Zambia
 "
         text="Victoria Falls, known as Mosi-oa-Tunya in the local language, translates to The Smoke That Thunders.
@@ -25,7 +25,8 @@ const Destination = () => {
          img2={Moutain2}
 />
 
-<DestinationData         
+<DestinationData   
+        className="first-des-reverse"       
         heading ="Serengeti National Park, Tanzania
 "
         text="The Serengeti is an iconic African safari destination, renowned for 
