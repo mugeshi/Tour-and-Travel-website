@@ -52,6 +52,12 @@
     flex-direction: column-reverse;
     margin-top: 2.5rem;
   }
+.first-des-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 4.5rem;
+}
+
   .des-text {
     width: 100%;
   }
