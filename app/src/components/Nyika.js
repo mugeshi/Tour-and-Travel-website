@@ -10,4 +10,4 @@ function Nyika(){
     )
 }
 
-export  default Nyika
+export  default Nyika;
