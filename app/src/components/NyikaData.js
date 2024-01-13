@@ -12,3 +12,5 @@ function NyikaData(){
     </div>
     )
 }
+
+export default NyikaData;
