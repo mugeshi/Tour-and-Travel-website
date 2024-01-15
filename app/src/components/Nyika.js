@@ -1,11 +1,11 @@
 import React from "react";
+import NyikaData from './NyikaData';
 import "./NyikaStyles.css";
-import NyikaData from "NyikaData";
-import Nyika1 from "../asserts/massaimara1.jpeg"
-import Nyika2 from "../asserts/massaimara1.jpeg"
-import Nyika3 from "../asserts/massaimara1.jpeg"
-import Nyika4 from "../asserts/massaimara1.jpeg"
+import Nyika1 from "../assets/massaimara1.jpeg"
+import Nyika2 from "../assets/massaimara1.jpeg"
+import Nyika3 from "../assets/massaimara1.jpeg"
 
+import Nyika4 from "../assets/giraffe1.jpg"
 
 function Nyika() {
   return (
@@ -26,7 +26,36 @@ elephants, buffalo, leopards, and rhinoceros. The Maasai Mara also hosts a vibra
 adding cultural significance to the natural splendor of the region. Visitors can experience a unique blend 
 of wildlife and traditional Maasai culture in this iconic African safari destination."
         />
-        
+     <NyikaData
+        image={Nyika4}
+        heading="Destination to Giraffe Centre"
+        text="
+
+The Giraffe Centre, situated in Nairobi, Kenya, is a conservation and educational center 
+dedicated to the endangered Rothschild's giraffe. Established by the African Fund for 
+Endangered Wildlife in 1979, the center provides a unique opportunity for visitors to 
+interact closely with these graceful creatures. Guests can hand-feed and observe giraffes 
+from a raised platform, gaining insight into their behavior and conservation efforts. Beyond its 
+role in giraffe preservation, the Giraffe Centre plays a crucial part in environmental education, 
+ostering awareness and appreciation for wildlife conservation among visitors of all ages. 
+The center's commitment to sustainable practices and wildlife protection makes it a noteworthy 
+destination for those interested in both giraffe conservation and environmental education."
+        />
+         <NyikaData
+        image={Nyika4}
+        heading="Destination to Giraffe Centre"
+        text="
+
+The Giraffe Centre, situated in Nairobi, Kenya, is a conservation and educational center 
+dedicated to the endangered Rothschild's giraffe. Established by the African Fund for 
+Endangered Wildlife in 1979, the center provides a unique opportunity for visitors to 
+interact closely with these graceful creatures. Guests can hand-feed and observe giraffes 
+from a raised platform, gaining insight into their behavior and conservation efforts. Beyond its 
+role in giraffe preservation, the Giraffe Centre plays a crucial part in environmental education, 
+ostering awareness and appreciation for wildlife conservation among visitors of all ages. 
+The center's commitment to sustainable practices and wildlife protection makes it a noteworthy 
+destination for those interested in both giraffe conservation and environmental education."
+        />
       </div>
     </div>
   );
