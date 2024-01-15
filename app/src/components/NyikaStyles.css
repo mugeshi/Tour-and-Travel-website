@@ -39,3 +39,18 @@
    font-size: 1.3rem;
    padding: .9rem 0 .2rem 0;
 }
+@media screen and (max-width:850px){
+  .Nyika{
+    margin: 4rem 2rem;
+
+  }  
+  .nyikacard{
+    flex-direction: column;
+}
+.N-card{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+
+}
