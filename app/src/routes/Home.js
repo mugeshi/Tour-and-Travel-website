@@ -1,5 +1,5 @@
 import Destination from "../components/Destination";
-import Footer from "../components/FooterStyles";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar"
 import Nyika from "../components/Nyika";
@@ -19,7 +19,7 @@ function Home (){
     />
     <Destination/>
     <Nyika/>
-    <Footer />
+    <Footer/>
     </>
    )
 
