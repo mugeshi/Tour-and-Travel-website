@@ -44,3 +44,31 @@
   font-size: 1.1rem;
   margin-bottom: 0.5rem; 
 }
+
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 2rem 3rem; /* Adjust padding for smaller screens */
+  }
+
+  .top {
+    flex-direction: column; /* Stack items in a column for smaller screens */
+    align-items: flex-start; /* Align items to the start of the column */
+  }
+
+ .top i {
+  color: #fff;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+  .bottom {
+    display: flex;
+    flex-wrap: wrap; /* Allow div elements to wrap to the next line */
+    justify-content: space-between;
+  }
+
+  .bottom div {
+    width: 48%; /* Set a width to allow two divs in a row for better spacing */
+    margin-bottom: 1rem; /* Add margin between div elements for better spacing */
+  }
+}
