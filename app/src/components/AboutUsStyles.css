@@ -9,3 +9,9 @@
     padding-bottom: 2rem;
 }
 
+@media screen and (max-width: 850px){
+    .about-container{
+    margin: 4rem 6rem;
+    
+}
+}
